@@ -1,5 +1,5 @@
 # Face-Detection-System
-# 1. Import OpenCV<br>
+## 1. Import OpenCV<br>
 cv2 is used for computer vision tasks like face detection.
 # 2. Load Haar Cascade Classifier <br>
 Loads a pre-trained Haar cascade model for detecting faces.
