@@ -2,8 +2,10 @@ import cv2
 
 face_cap = cv2.CascadeClassifier('C:/Users/klasy/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml')
 
+# opens default video camera
 video_cap = cv2.VideoCapture(0)
 while True:
+    # reads 
     ret, video_data = video_cap.read()
     col = cv2.cvtColor(video_data,cv2.COLOR_BGR2GRAY)
     faces = face_cap.detectMultiScale(
